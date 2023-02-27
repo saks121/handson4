@@ -1,38 +1,60 @@
-.App {
+body {
   text-align: center;
+  background-image: linear-gradient(to right,pink,cyan,pink);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.NavBar{
+  width: 99%;
+  padding: 2px;
+  height: 55px;
+  background-color: blue;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  font-size: 33px;
+  position: absolute;
+  left: 6px;
+  top: 15px;
 }
 
-.App-link {
-  color: #61dafb;
+.link{
+  color:bisque;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.table{
+  background-color: white;
+  width: 99%;
+  padding: 2px;
+  border: 2px solid black;
+  border-collapse: collapse;
+  position: absolute;
+  top: 140px;
+  left: 6px;
+  height: 100%;
+  font-size: 20px;
+   
 }
+
+.head{
+  position: absolute;
+  top: 60px;
+  left: 20px;
+}
+
+h1.home-h{
+  position: relative;
+  top: 50px;
+  right: 555px;
+}
+
+.btn-a{
+  border-color: black;
+  border-radius: 25px;
+  width: 200px;
+  height: 45px;
+  font-size: 15px;
+  position: absolute;
+  left: 1117px;
+  top: 80px;
+  background-color: darkgrey;
+}
+
